@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elai | About Me</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8fa;
+    color: #421020;
+}
+
+nav {
+    background: #641b32;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav h2 {
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f3c5d4;
+}
+
+header {
+    text-align: center;
+    padding: 50px 15px 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+header span {
+    color: #8b294b;
+}
+
+.favorites {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border: 3px solid #641b32;
+    border-radius: 12px;
+    padding: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(100,27,50,0.12);
+}
+
+.card h2 {
+    color: #641b32;
+    margin-bottom: 20px;
+}
+
+.card img,
+.card video {
+    width: 100%;
+    max-width: 550px;
+    border: 5px solid #641b32;
+    border-radius: 10px;
+}
+
+.card audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+footer {
+    background: #641b32;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media(max-width: 650px) {
+    nav {
+        padding: 18px 5%;
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>ELAI.</h2>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+    </div>
+</nav>
+
+<header>
+    <h1>Get to Know <span>Me!</span></h1>
+    <p>A little glimpse of my favorite things.</p>
+</header>
+
+<main class="favorites">
+
+    <section class="card">
+        <h2>My Favorite Picture</h2>
+        <img src="dylan.jpeg" alt="Favorite Picture">
+    </section>
+
+    <section class="card">
+        <h2>My Favorite Video</h2>
+        <video controls>
+            <source src="haha.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="card">
+        <h2>My Favorite Audio</h2>
+        <audio controls>
+            <source src="dc.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Elai | Personal Website
+</footer>
+
+</body>
+</html>
